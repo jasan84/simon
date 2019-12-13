@@ -87,7 +87,7 @@ function luzVerde(){
 			},500);
 
 		setTimeout(function(){
-			botonSimonVerde2.style.background="green";
+			botonSimonVerde2.style.background="";
 		},900);
 
 }
@@ -100,7 +100,7 @@ function luzRoja(){
 			},500);
 
 		setTimeout(function(){
-			botonSimonRojo2.style.background="red";
+			botonSimonRojo2.style.background="";
 		},900);
 
 }
@@ -113,7 +113,7 @@ function luzAmarillo(){
 			},500);
 
 		setTimeout(function(){
-			botonSimonAmarillo2.style.background="yellow";
+			botonSimonAmarillo2.style.background="";
 		},900);
 
 }
@@ -126,7 +126,19 @@ function luzAzul(){
 			},500);
 
 		setTimeout(function(){
-			botonSimonAzul2.style.background="blue";
+			botonSimonAzul2.style.background="";
+		},900);
+
+}
+
+function luzJugar(){
+
+			setTimeout(function(){
+			botoneraJugar.style.background="radial-gradient(#8AE234 10%, green 100%)";
+			},500);
+
+		setTimeout(function(){
+			botoneraJugar.style.background="";
 		},900);
 
 }
@@ -162,11 +174,6 @@ function jugadaCom(){
 
 				for(j=0; j < secuencia_com.length; j++){
 
-
-						if(secuencia_com[j-1] == secuencia_com[j]){
-							tiempo = tiempo *1.2;
-						}
-
 						if(secuencia_com[j] == 0){
 
 							setTimeout(function(){
@@ -193,7 +200,11 @@ function jugadaCom(){
 								luzAzul();
 							},tiempo)
 						}
-
+						
 						tiempo = tiempo+500;
 				}
+						
+						setTimeout(function(){
+							luzJugar();
+						},tiempo+200);
 }

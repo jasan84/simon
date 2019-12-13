@@ -117,6 +117,7 @@
 		#botonera2 > li#botoneraJugar:active{
 			transform:translate(5px);
 			box-shadow:-3px -3px 2px black;
+			background:radial-gradient(#8AE234 10%, green 100%);
 		}
 
 
