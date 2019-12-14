@@ -1,0 +1,56 @@
+#carcasa{
+	border:solid 1px black;
+	border-radius:500px;
+	width:40%;
+	background:black;
+	position:relative;
+}
+
+.pulsadores{
+	width:45%;
+	margin:1.5% 2.5%;
+	padding-bottom:45%;
+	display:inline-block;
+	position:relative;
+}
+
+#pulsadorVerde{
+	background:green;
+	border-radius:100% 3% 0% 3%;
+}
+
+#pulsadorRojo{
+	background:red;
+	border-radius: 3% 100% 3% 0px;
+}
+
+#pulsadorAmarillo{
+	background:yellow;
+	border-radius: 3% 0px 3% 100%;
+}
+
+#pulsadorAzul{
+	background:blue;
+	border-radius: 0px 3% 100% 3%;
+
+}
+
+#panel{
+	background:black;
+	width:50%;
+	padding-bottom:35%;
+	border-radius:100%;
+	float:left;
+	position:absolute;
+	left:25%;
+	top:25%;
+	z-index:7;
+	text-align:center;
+	color:white;
+}
+
+#botonera > ul > li{
+	display:inline;
+	color:white;
+	font-size:40%;
+}

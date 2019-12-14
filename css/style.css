@@ -12,16 +12,16 @@
 
 #carcasa{
 	background-color:#131617;
-	width:50%;
+	width:40%;
 	margin:auto;
 	padding:20px;
-	border-radius:250px;
+	border-radius:500px;
 } 
 
 .botonSimon2{
 	border-radius:300px 30px 150px 30px;
-	width:80%;
-	height:200px;
+	width:90%;
+	height:180px;
 }
 
 
