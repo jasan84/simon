@@ -5,7 +5,7 @@ body{
 #carcasa{
 	border:solid 1px black;
 	border-radius:500px;
-	width:40%;
+	width:45%;
 	background:black;
 	position:relative;
 }
@@ -58,16 +58,26 @@ body{
 	color:white;
 }
 
-
 #pantalla{
+	background:grey;
+	width:12%;
+	padding-bottom:12%;
+	position:absolute;
+	top:13%;
+	left:44%;
+
+}
+
+
+#botonJugar{
 	width:75%;
 	padding-bottom:12%;
 	position:absolute;
 	top:43%;
-	left:13%;
+	left:12%;
 	text-align:center;
 	font-size:80%;
-	border-radius:20%;
+	border-radius:10% 10% 10% 10%;
 	background:green;
 	color:white;
 }
@@ -81,7 +91,6 @@ body{
 
 .botonPanel{
 	display:inline;
-	border:solid 2px black;
 	border-radius:100%;
 	padding-bottom:10%;
 	padding-left:10%;
@@ -90,17 +99,17 @@ body{
 }
 
 #botonInicio{
-	left:21%;
+	left:22%;
 	background:yellow;
 }
 
 #botonDemo{
-	left:44%;
+	left:44.5%;
 	background:blue;
 }
 
 #botonReset{
-	left:66%;
+	left:66.5%;
 	background:green;
 }
 
