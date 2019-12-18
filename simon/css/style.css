@@ -1,0 +1,192 @@
+body{
+	font-size:100%;
+}
+
+#carcasa{
+	border:solid 1px black;
+	border-radius:500px;
+	width:45%;
+	background:black;
+	position:relative;
+}
+
+.pulsadores{
+	width:45%;
+	margin:1.5% 2.5%;
+	padding-bottom:45%;
+	display:inline;
+	border:none;
+}
+		
+			.pulsadores:focus{
+				outline:none;
+			}
+
+#pulsadorVerde{
+	background:green;
+	border-radius:100% 3% 0% 3%;
+}
+
+		#pulsadorVerde:active{
+			/*background-image:radial-gradient(lightgreen, green)*/;
+			transform:translate(3px, 3px);
+		}
+
+#pulsadorRojo{
+	background:red;
+	border-radius: 3% 100% 3% 0px;
+}
+
+		#pulsadorRojo:active{
+			/*background-image:radial-gradient(pink, red)*/;
+			transform:translate(-3px, 3px);
+		}
+
+#pulsadorAmarillo{
+	background:yellow;
+	border-radius: 3% 0px 3% 100%;
+}
+
+		#pulsadorAmarillo:active{
+			/*background-image:radial-gradient(white, yellow)*/;
+			transform:translate(3px, -3px);
+		}
+
+#pulsadorAzul{
+	background:blue;
+	border-radius: 0px 3% 100% 3%;
+}
+
+		#pulsadorAzul:active{
+			/*background-image:radial-gradient(lightblue, blue)*/;
+			transform:translate(-3px, -3px);
+		}
+
+#panel{
+	background-color:black;
+	background-image: url("../images/logo2.png");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:85%;
+	width:50%;
+	padding-bottom:50%;
+	border:solid 1px black;
+	border-radius:100%;
+	float:left;
+	position:absolute;
+	left:25%;
+	top:25%;
+	z-index:7;
+	text-align:center;
+	color:white;
+}
+
+/*#pantalla{
+	background:black;
+	border:solid 1px grey;
+	width:12%;
+	height:8%;
+	position:absolute;
+	top:14%;
+	left:44%;
+	font-size:90%;
+	color:lightgreen;
+
+}*/
+
+
+#botonJugar{
+	width:75%;
+	padding-bottom:12%;
+	position:absolute;
+	top:43%;
+	left:13%;
+	text-align:center;
+	font-size:80%;
+	border:solid 1px green;
+	border-radius:10% 10% 10% 10%;
+	background:green;
+	color:white;
+	box-shadow:-2px -2px 0px darkgreen;
+}
+		
+		#botonJugar:active{
+			box-shadow:none;
+			transform:translate(-3px,-3px);
+		}
+
+		#botonJugar:focus{
+			outline:none;
+		}
+
+#botonera{
+	position:absolute;
+	top:58%;
+	width:100%;
+	text-align:center;
+}
+
+		#botonera:focus{
+			outline:none;
+		}
+
+.botonPanel{
+	display:inline;
+	border-radius:100%;
+	padding-bottom:10%;
+	padding-left:10%;
+	position:absolute;
+	top:56.8%;
+}
+
+		.botonPanel:focus{
+			outline:none;
+		}
+
+#botonInicio{
+	left:22%;
+	border:none;
+	background:blue;
+	box-shadow:-3px -3px 0px #0000d0;
+}
+
+		#botonInicio:active{
+				box-shadow:none;
+				transform:translate(-3px, -3px);
+}
+
+#botonDemo{
+	left:44.5%;
+	border:none;
+	background:yellow;
+	box-shadow:-3px -3px 0px #c3c300;
+}
+		
+		#botonDemo:active{
+			box-shadow:none;
+			transform:translate(-3px,-3px);
+		}
+
+#botonReset{
+	left:66.5%;
+	border:none;
+	background:red;
+	box-shadow:-3px -3px 0px #d60000;
+}
+		
+		#botonReset:active{
+			box-shadow:none;
+			transform:translate(-3px,-3px);
+		}
+
+#switchOn{
+	position:absolute;
+	top:76%;
+	left:43%;
+	border:none;
+	background:black;
+	width:8%;
+	padding-bottom:5%;
+	box-shadow: 10px 0px #535353;
+}

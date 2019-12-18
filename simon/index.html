@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+	<meta charset="UTF-8">
+	<title>SIMON - 1.1</title>
+
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css"/>
+</head>
+<body onload="inicio();">
+
+
+	<header>
+		<h1>SIMON 1.1</h1>
+	</header>
+
+	<div id="carcasa" class="container">
+	
+		
+			<div id="panel">
+
+<!--				<div class="row">
+					<div id="pantalla">
+						<p>1</p>
+					</div>
+					
+				</div>
+
+-->				
+					
+					<div class="row">
+						<button id="botonJugar" onClick="enviarHum();" disabled="true">
+						</button> 
+					</div>
+
+					<div class="row">
+						<button id="botonInicio" class="botonPanel" onClick="genCom();" disabled="true">
+						</button>
+						<button id="botonDemo" class="botonPanel" onClick="demo();">
+						</button>
+						<button id="botonReset" class="botonPanel" onClick="reset();">
+						</button>
+					</div>				
+
+					<div class="row">
+						<button id="switchOn" class="col-s-12" onClick="OnOff();">		
+						</button>
+					</div>
+			</div>	
+		
+
+		<div class="row">
+			<button id="pulsadorVerde" class="pulsadores" onClick="boton1();" disabled="true">
+			</button>
+			<button id="pulsadorRojo" class="pulsadores" onClick="boton2();" disabled="true">
+			</button>
+		</div>
+
+		<div class="row">
+			<button id="pulsadorAmarillo" class="pulsadores" onClick="boton3();"disabled="true">
+			</button>
+			<button id="pulsadorAzul" class="pulsadores" onClick="boton4();"disabled="true">
+			</button>
+		</div>
+	</div>
+
+
+	<footer>
+<!-- <div class="col-md-6">
+			<div class="row">
+			
+				<div class="col-md-6" id="log_h">
+					<p> LOG h </p>
+				</div>
+
+				<div class="col-md-6" id="log_c">
+					<p> LOG c </p>
+				</div>
+			</div>
+
+		</div> 
+	-->
+
+		
+	</footer>
+	
+
+
+	<script src="vendor/jquery/jquery-3.4.1.min.js"></script>
+	<script src="vendor/popper/popper.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="js/secuencias.js"></script>
+
+</body>
+</html>
