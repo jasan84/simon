@@ -6,4 +6,4 @@ Recreación del juego "Simon", que consiste en seguir la secuencia de colores ge
 
 <hr/>
 
-Escrito en HTML5 con hoja de estilos CSS, JavaScript y utilización de Bootstrap. La imagen utilizada fue editada con Inkscape.
+Escrito en HTML5 con hoja de estilos CSS, JavaScript para funciones y animaciones, y utilización de Bootstrap. La imagen utilizada fue editada con Inkscape.
